@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
             else
                 result = "Underweight"
 
-//            tvBmi.setText(bmi.toString())
-//            tvResult.setText(result)
+            tvBmi.setText(bmi.toString())
+            tvResult.setText(result)
 
             hideKeyboard()
 
